@@ -1,0 +1,28 @@
+Package: ChlorinatedParaffinsMS
+Type: Package
+Title: Tools for the GC-ECNI-HRMS analysis of chlorinated paraffins
+Version: 0.1.0
+Author: Robert B. Young
+Maintainer: Robert B. Young <robertyoung3@gmail.com>
+Description: This package contains tools to facilitate the analysis of chlorinated paraffins by gas chromatograph-electron capture negative ionization-high resolution mass spectrometry. The tools are organized in eight (8) groups.
+Depends: R (>= 3.5.0)
+License:  GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    enviPat,
+    rebus.base,
+    stringr,
+    magrittr,
+    purrr,
+    dplyr,
+    tibble,
+    ggplot2,
+    ggthemes,
+    ggsci,
+    readxl,
+    tidyr,
+    data.table,
+    readr,
+    janitor
+RoxygenNote: 6.1.1
